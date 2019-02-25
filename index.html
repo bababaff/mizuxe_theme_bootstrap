@@ -9,7 +9,7 @@
     />
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css"/>
+    <link rel="stylesheet" href="css/bootstrap.css" />
 
     <!-- Font Awesome's Free CDN -->
     <link
@@ -25,14 +25,20 @@
     <title>Bootstrap Theme</title>
   </head>
   <body>
-
-    <nav class="navbar navbar-expand-md navbar-light fixed-top py-4" id="main-nav">
+    <nav
+      class="navbar navbar-expand-md navbar-light fixed-top py-4"
+      id="main-nav"
+    >
       <div class="container">
         <a href="#home" class="navbar-brand">
-          <img src="img/mlogo.png" width="50" height="50" alt="">
+          <img src="img/mlogo.png" width="50" height="50" alt="" />
           <h3 class="d-inline align-middle">Mizuxe</h3>
         </a>
-        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
+        <button
+          class="navbar-toggler"
+          data-toggle="collapse"
+          data-target="#navbarCollapse"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarCollapse">
@@ -54,11 +60,43 @@
       </div>
     </nav>
 
+    <!-- SHOWCASE -->
+    <section id="showcase" class="py-5">
+      <div class="primary-overlay text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 text-center">
+              <h1 class="display-2 mt-5 pt-5">
+                Do What You Dream Of...
+              </h1>
+              <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam,
+                tempora!
+              </p>
+              <a href="#" class="btn btn-outline-secondary btn-lg text-white">
+                <i class="fas fa-arrow-right"></i> Read More
+              </a>
+            </div>
+            <div class="col-lg-6">
+              <img
+                src="img/book.png"
+                alt=""
+                class="img-fluid d-none d-lg-block"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
 
-    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
-    crossorigin="anonymous"></script>
+    <script
+      src="http://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
 
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
@@ -72,8 +110,8 @@
     ></script>
 
     <script>
-        // Get the current year for the copyright
-        $('#year').text(new Date().getFullYear());
+      // Get the current year for the copyright
+      $("#year").text(new Date().getFullYear());
     </script>
   </body>
 </html>
