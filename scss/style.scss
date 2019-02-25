@@ -30,3 +30,17 @@ body {
     height: 100%;
   }
 }
+
+@media (max-width: 768p) {
+  #shocase {
+    min-height: 500px;
+
+    h1 {
+      font-size: 4rem;
+    }
+  }
+
+  .mb-resp {
+    margin-bottom: 1rem;
+  }
+}
