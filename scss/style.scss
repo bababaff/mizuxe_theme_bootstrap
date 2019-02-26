@@ -37,6 +37,21 @@ body {
   border-bottom: 1px #ddd solid;
 }
 
+#authors {
+  img {
+    margin-top: -50px;
+  }
+
+  .card:hover {
+    background: $primary;
+    color: white;
+  }
+
+  .fab {
+    color: white;
+  }
+}
+
 @media (max-width: 768p) {
   #showcase {
     min-height: 500px;
