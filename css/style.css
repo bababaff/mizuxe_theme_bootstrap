@@ -21,11 +21,13 @@ body {
     width: 100%;
     height: 100%; }
 
-@media (max-width: 768p) {
-  #shocase {
-    min-height: 500px; }
-    #shocase h1 {
-      font-size: 4rem; }
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
 
-  .mb-resp {
-    margin-bottom: 1rem; } }
+@media (max-width: 768p) {
+  #showcase {
+    min-height: 500px; }
+    #showcase h1 {
+      font-size: 4rem; } }
